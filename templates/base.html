@@ -1,6 +1,6 @@
-<title>inspector.py</title>
+<title>metadata survey</title>
 <link rel="stylesheet" href="https://latex.now.sh/style.css">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧪</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📑</text></svg>">
 <style>
 p {hyphens: none;} /* override */
 .failure { color: red; font-weight: bold; } .failure::before {content: "❌ "} 
@@ -9,13 +9,12 @@ p {hyphens: none;} /* override */
 <body id="top">
   <header>
     <h1>A study of available <nobr>Cloud Run</nobr> metadata</h1>
-    <p class="author">Katie McLaughlin<br> May 2020</p>
+    <p class="author">June 2020</p>
   </header>
 
   <div class="abstract">
     <h5>Abstract</h5>
-    <p>This service allows a live inspection of the <a href="https://cloud.google.com/run/docs/reference/container-contract#metadata-server">container instance metadata server.</a> A number of pre-configured searches have been curated in advance. However, by specifying <code>?q=</code> the metadata server can be inspected interactively.
-    </p>
+    <p>This service allows a live inspection of the <a href="https://cloud.google.com/run/docs/reference/container-contract#metadata-server">container instance metadata server.</a> A number of pre-configured searches have been curated in advance. However, by specifying <code>?q=</code> the metadata server can be inspected interactively. <a href="/?q=/computeMetadata/v1/instance/region">Example</a></p>
   </div>
 
   <main>
